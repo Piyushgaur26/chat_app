@@ -1,14 +1,23 @@
 # Swiftly - Flutter Chat App
 
-**Swiftly** is a real-time chat application built with Flutter, utilizing Firebase for authentication, chat storage, and push notifications. It offers a smooth user experience with features like profile picture upload during sign-up and push notifications for new messages.
+**Swiftly** is a real-time chat application built with Flutter, utilizing Firebase for both frontend and backend. The app provides a smooth user experience with features like profile picture upload during sign-up, real-time messaging, and push notifications.
 
 ## Features
 
 - **Firebase Authentication**: Sign up and log in users using Firebase.
 - **Profile Picture Upload**: Users can take and upload a profile picture during the sign-in process.
-- **Real-Time Chat**: Chats are saved in Firebase and can be accessed in real-time.
-- **Push Notifications**: Users receive push notifications for new messages.
+- **Real-Time Chat**: Chats are saved in Firebase Firestore and can be accessed in real-time.
+- **Push Notifications**: Users receive push notifications for new messages via Firebase Cloud Messaging (FCM).
 - **Responsive UI**: The app is optimized for both iOS and Android platforms.
+
+## Backend Overview
+
+The entire backend of **Swiftly** is powered by Firebase, including:
+
+- **Firebase Authentication** for managing user sign-in and sign-up.
+- **Firebase Firestore** for real-time chat storage and syncing across devices.
+- **Firebase Cloud Storage** for uploading and storing user profile pictures.
+- **Firebase Cloud Messaging (FCM)** for sending and receiving push notifications.
 
 ## Installation
 
@@ -46,12 +55,19 @@
 ## Usage
 
 - **Authentication**: Users can sign up or log in with email and password. During sign-up, they can also capture and upload a profile picture.
-- **Chat**: Users can send and receive messages in real-time, with all chats being stored in Firebase.
-- **Push Notifications**: Notifications are sent when users receive new messages.
+- **Chat**: Users can send and receive messages in real-time, with all chats being stored in Firebase Firestore.
+- **Push Notifications**: Notifications are sent when users receive new messages using Firebase Cloud Messaging.
 
 ## Firebase Configuration
 
-Ensure you have configured Firebase correctly with authentication, Firestore for chat storage, and Firebase Cloud Messaging (FCM) for push notifications. Update the `google-services.json` and `GoogleService-Info.plist` files with your Firebase project details.
+Ensure you have configured Firebase correctly with:
+
+- **Authentication** for user sign-in.
+- **Firestore** for chat storage.
+- **Cloud Storage** for profile picture uploads.
+- **Firebase Cloud Messaging (FCM)** for push notifications.
+
+Update the `google-services.json` and `GoogleService-Info.plist` files with your Firebase project details.
 
 ## Contributing
 
@@ -75,4 +91,4 @@ For any questions or feedback, feel free to reach out:
 
 ---
 
-This is a customizable template based on your app features. Let me know if you’d like any specific details added or changes made!
+Let me know if you'd like to tweak anything else!
