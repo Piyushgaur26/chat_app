@@ -83,12 +83,5 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License.
 
-## Contact
-
-For any questions or feedback, feel free to reach out:
-
-- **Piyush**: [Your Email]
-
 ---
 
-Let me know if you'd like to tweak anything else!
