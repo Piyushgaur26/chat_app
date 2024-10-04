@@ -1,6 +1,6 @@
 # Swiftly - Flutter Chat App
 
-**Swiftly** is a real-time chat application built with Flutter, utilizing Firebase for both frontend and backend. The app provides a smooth user experience with features like profile picture upload during sign-up, real-time messaging, and push notifications.
+**Swiftly** is a real-time chat application built with Flutter, utilizing Firebase for authentication, chat storage, and push notifications. It offers a smooth user experience with features like profile picture upload during sign-up and push notifications for new messages.
 
 ## Features
 
