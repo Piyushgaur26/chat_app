@@ -2,6 +2,8 @@
 
 **Swiftly** is a real-time chat application built with Flutter, utilizing Firebase for authentication, chat storage, and push notifications. It offers a smooth user experience with features like profile picture upload during sign-up and push notifications for new messages.
 
+![App Preview](Assets/Image/preview.gif)
+
 ## Features
 
 - **Firebase Authentication**: Sign up and log in users using Firebase.
@@ -84,4 +86,3 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License.
 
 ---
-
